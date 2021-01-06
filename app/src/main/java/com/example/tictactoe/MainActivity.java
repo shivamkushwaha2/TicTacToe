@@ -43,14 +43,14 @@ public class MainActivity extends AppCompatActivity {
                 activeplayer = 1;
                 if(check1==true) {
                     TextView status = findViewById(R.id.status);
-                    status.setText("Player2-Its your turn");
+                    status.setText("Player2-It's your turn");
                 }
             } else {
                 img.setImageResource(R.drawable.o);
                 activeplayer = 0;
                 if(check1==true) {
                     TextView status = findViewById(R.id.status);
-                    status.setText("Player1-Its your turn");
+                    status.setText("Player1-It's your turn");
                 }
             }
 
@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
         ((ImageView)findViewById(R.id.imageView8)).clearColorFilter();
 
         TextView status = findViewById(R.id.status);
-        status.setText("Player1-Its your turn");
+        status.setText("Player1-It's your turn");
         Button b2 = findViewById(R.id.b1);
         b2.setVisibility(View.INVISIBLE);
 
